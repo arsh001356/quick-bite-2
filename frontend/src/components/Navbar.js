@@ -22,8 +22,8 @@ function Navbar() {
                         <li className=" cursor-pointer  "><Link to="/">HOME</Link></li>
                         <li className=" cursor-pointer "><Link to="/menu">MENU</Link></li>
                         <li className=" cursor-pointer "><Link to="/about">ABOUT</Link></li>
-                        <li className=" cursor-pointer "><a href="http://localhost:5000/bookTable">BOOK TABLE</a></li>
-                        <li className=" cursor-pointer "><a href="http://localhost:5000/allbookings">ALL BOOKINGS</a></li>
+                        <li className=" cursor-pointer "><a href="https://quick-bite-2.onrender.com/bookTable">BOOK TABLE</a></li>
+                        <li className=" cursor-pointer "><a href="https://quick-bite-2.onrender.com/allbookings">ALL BOOKINGS</a></li>
 
                     </ul>
 
