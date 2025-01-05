@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full text-center">
+        <h1 class="text-3xl font-bold text-green-500 mb-4">Congratulations!</h1>
+        <p class="text-lg text-gray-700 mb-6">Your booking has been confirmed successfully.</p>
+        <div class="bg-gray-100 p-4 rounded-md shadow-inner">
+            <h2 class="text-xl font-semibold text-blue-500 mb-4">Booking Details</h2>
+            <p class="text-gray-700"><strong>Name:</strong>
+                <%= booking.name %>
+            </p>
+            <p class="text-gray-700"><strong>Date:</strong>
+                <%= booking.date %>
+            </p>
+            <p class="text-gray-700"><strong>Time:</strong>
+                <%= booking.time %>
+            </p>
+            <p class="text-gray-700"><strong>Guests:</strong>
+                <%= booking.guests %>
+            </p>
+            <p class="text-gray-700"><strong>Contact:</strong>
+                <%= booking.contact %>
+            </p>
+        </div>
+        <div class="mt-6">
+            <a href="/bookTable" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition">
+                Book Table
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
